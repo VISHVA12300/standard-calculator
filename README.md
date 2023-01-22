@@ -7,18 +7,19 @@ To design a web application for a standard calculator.
 ## DESIGN STEPS:
 
 ### Step 1:
-
+Clone into the repository and create project.
 
 ### Step 2:
-
+Make the necessary changes in settings.py.
 
 ### Step 3:
-
+Create folders for html,css and js inside static.
 
 ### Step 4:
-
+Code in the html program in calc.html, style.css and index.js.
 
 ### Step 5:
+Runserver to get the simple calculator output.
 
 ### Step 6:
 
@@ -29,7 +30,9 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 ## PROGRAM :
+```
 calc.html
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -127,7 +130,7 @@ button{
 }
 h1{
     font-size: 28px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 index.js
 
@@ -153,10 +156,11 @@ for (item of buttons) {
         else {
             screenValue += buttonText;
             screen.value = screenValue;
-        }
+        }
 
-    })
+    })
 }
+```
 
 ## OUTPUT:
 ![OUTPUT](./out.png)
